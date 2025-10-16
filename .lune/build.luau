@@ -155,7 +155,7 @@ for tool, generators in lib.generators do
 
 		engines = {
 			pesde = "^0.7.1",
-			lune = "^0.10.3",
+			lune = "^0.10.4",
 		},
 
 		target = {

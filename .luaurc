@@ -5,6 +5,6 @@
         "TableOperations": false
     },
     "aliases": {
-        "lune": "~/.lune/.typedefs/0.10.3/"
+        "lune": "~/.lune/.typedefs/0.10.4/"
     }
 }
