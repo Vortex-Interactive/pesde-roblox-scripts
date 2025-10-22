@@ -2,7 +2,7 @@
 # It is not intended for manual editing.
 format = 2
 name = "vortex_interactive/scripts_core"
-version = "0.2.1"
+version = "0.2.2"
 target = "lune"
 
 [workspace."vortex_interactive/scripts_argon"]
@@ -120,19 +120,19 @@ option = [{ name = "lukadev_0/option", version = "^1.2.1", index = "https://gith
 result = [{ name = "lukadev_0/result", version = "^1.2.1", index = "https://github.com/pesde-pkg/index" }, "standard"]
 toolchainlib = [{ name = "vortex_interactive/toolchainlib", version = "^0.2.1", index = "https://github.com/Vortex-Interactive/pesde-index", target = "lune" }, "standard"]
 
-[graph."vortex_interactive/rojo@7.6.0+toolchainlib.2 lune"]
-direct = ["rojo", { name = "vortex_interactive/rojo", version = "^7.6.0", index = "default" }, "dev"]
+[graph."vortex_interactive/rojo@7.5.1+toolchainlib.2 lune"]
+direct = ["rojo", { name = "vortex_interactive/rojo", version = "^7.5.1", index = "default" }, "dev"]
 
-[graph."vortex_interactive/rojo@7.6.0+toolchainlib.2 lune".dependencies]
+[graph."vortex_interactive/rojo@7.5.1+toolchainlib.2 lune".dependencies]
 option = ["lukadev_0/option@1.2.1 lune", "standard"]
 result = ["lukadev_0/result@1.2.1 lune", "standard"]
 toolchainlib = ["vortex_interactive/toolchainlib@0.2.1 lune", "standard"]
 
-[graph."vortex_interactive/rojo@7.6.0+toolchainlib.2 lune".pkg_ref]
+[graph."vortex_interactive/rojo@7.5.1+toolchainlib.2 lune".pkg_ref]
 ref_ty = "pesde"
 index_url = "https://github.com/Vortex-Interactive/pesde-index"
 
-[graph."vortex_interactive/rojo@7.6.0+toolchainlib.2 lune".pkg_ref.dependencies]
+[graph."vortex_interactive/rojo@7.5.1+toolchainlib.2 lune".pkg_ref.dependencies]
 option = [{ name = "lukadev_0/option", version = "^1.2.1", index = "https://github.com/pesde-pkg/index" }, "standard"]
 result = [{ name = "lukadev_0/result", version = "^1.2.1", index = "https://github.com/pesde-pkg/index" }, "standard"]
 toolchainlib = [{ name = "vortex_interactive/toolchainlib", version = "^0.2.1", index = "https://github.com/Vortex-Interactive/pesde-index", target = "lune" }, "standard"]
