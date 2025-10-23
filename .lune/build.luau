@@ -31,7 +31,7 @@ if not ok then
 end]],
 }
 
-local README_TMPL = [[# `vortex_interactive/scripts_%s`
+local README_TMPL = [[# `pesde/scripts_%s`
 Common scripts intended for use with %s.
 
 ## Included scripts
@@ -134,7 +134,7 @@ for tool, generators in lib.generators do
 
 	-- Define the manifest for the tool
 	local toolManifest: manifest.PesdeManifest = {
-		name = `vortex_interactive/scripts_{toolChoice}`,
+		name = `pesde/scripts_{toolChoice}`,
 		version = toolMeta.version,
 		-- For the description, we capitalize the first letter of the tool name here
 		-- since it is a proper noun
@@ -168,11 +168,11 @@ for tool, generators in lib.generators do
 
 		peer_dependencies = toolMeta.tool_dependencies,
 		dependencies = {
-			scripts_core = { workspace = "vortex_interactive/scripts_core", version = "^" },
+			scripts_core = { workspace = "pesde/scripts_core", version = "^" },
 		},
 
 		indices = {
-			default = "https://github.com/Vortex-Interactive/pesde-index"
+			default = "https://github.com/Vortex-Interactive/pesde-index",
 		},
 	}
 
