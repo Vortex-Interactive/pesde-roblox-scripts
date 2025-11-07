@@ -1,5 +1,5 @@
 name = "pesde/scripts_core"
-version = "0.2.0"
+version = "0.2.1"
 description = "Scripts and other utilities for use with pesde"
 authors = [
 	"daimond113 <contact@daimond113.com> (https://www.daimond113.com/)",
@@ -22,11 +22,11 @@ pesde = "^0.7.1"
 lune = "^0.10.4"
 
 [meta.scripts.rojo]
-version = "0.2.0"
-tool_dependencies = { rojo = { name = "pesde/rojo", version = "^7.6.0+tcl.1" } }
+version = "0.2.1"
+tool_dependencies = { rojo = { name = "pesde/rojo", version = "^7.6.1" } }
 
 [meta.scripts.argon]
-version = "0.2.0"
+version = "0.2.1"
 tool_dependencies = { argon = { name = "pesde/argon", version = "^2.0.26+tcl.1" } }
 
 [target]
@@ -36,10 +36,10 @@ lib = "src/init.luau"
 [dev_dependencies]
 frktest = { name = "itsfrank/frktest", version = "^0.0.4", target = "luau", index = "official" }
 pathfs = { name = "jiwonz/pathfs", version = "^0.6.0", index = "official" }
-luau-lsp = { name = "pesde/luau_lsp", version = "^1.55.0+tcl.1" }
-stylua = { name = "pesde/stylua", version = "^2.3.0+tcl.1" }
+luau-lsp = { name = "pesde/luau_lsp", version = "^1.56.1" }
+stylua = { name = "pesde/stylua", version = "^2.3.1" }
 argon = { name = "pesde/argon", version = "^2.0.26+tcl.1" }
-rojo = { name = "pesde/rojo", version = "^7.6.0+tcl.1" }
+rojo = { name = "pesde/rojo", version = "^7.6.1" }
 
 [indices]
 default = "https://github.com/Vortex-Interactive/pesde-index"
